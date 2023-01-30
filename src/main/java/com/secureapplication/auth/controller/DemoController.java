@@ -22,15 +22,10 @@ import java.util.Optional;
 @AllArgsConstructor
 public class DemoController {
 
-
-
     @GetMapping("/secureHello")
     public ResponseEntity<String> sayHello() {
         return ResponseEntity.ok("Hello from secured endpoint!");
     }
-
-
-
 
 }
 
